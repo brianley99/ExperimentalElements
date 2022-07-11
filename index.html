@@ -10,8 +10,16 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <!--Card reveal links
     <link rel="stylesheet" href="./css/card-reveal.css">
+    -->
+    
+    <!--card open links-->
+    <link rel="stylesheet" href="./css/card-open.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -20,9 +28,7 @@
         <p class="lead">Just medssing around with code</p>
     </div>
 
-    </div>
-
-    <div class="container">
+    <div class="container" style="display:none ;">
         <div class="card">
             <div id="card-activator" class="card-content">
                 <h3 class="card-title text-center m-2">Title</h3>
@@ -31,6 +37,13 @@
         </div>
     </div>
 
+    <div class="card" style="background-image:url('/img/html.png') ;">
+        <div class="card__content">
+          <h3 class="card__title">HTML</h3>
+          <p class="card__description">HyperText Markup Language is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+        </div>
+    </div>
+    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
