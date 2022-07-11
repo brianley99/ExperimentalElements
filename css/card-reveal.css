@@ -1,0 +1,29 @@
+.card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #a18a96;
+    background-image: url(/img/reddit\ guy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -20px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid black;
+    
+
+}
+
+.card-content {
+    background-color: azure;
+}
+
+#card-vanish {
+    display: none;
+}
+
+#card-activator:hover>#card-vanish {
+    display:block;
+}
